@@ -14,4 +14,11 @@ public class Sort {
         return _sortedArray;
     }
     
+    public String toString(){
+        String temp="";
+        for(int i=0; i<_sortedArray.length; i++){
+            temp = temp+_sortedArray[i]+"\n";
+        }
+        return temp;
+    }
 }
