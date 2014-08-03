@@ -29,7 +29,7 @@ public class Main {
         System.out.println(" 4. Quick Sort");
         
         System.out.println("Ingrese tipo de ordenamiento");
-        int opcion = _in.nextInt();
+        opcion = _in.nextInt();
         
         System.out.println("\nArreglo ordenado:");
         int[] _array = newRandom.getArray();

@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Vidal Villegas   13023
+Luis Avila       13077
+Kevin Garcia     13177
+Kimberly Guzman  13642
  */
 
 package JavaSort;
