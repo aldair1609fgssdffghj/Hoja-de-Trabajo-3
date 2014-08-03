@@ -18,6 +18,12 @@ public class Main {
         System.out.println("Arreglo desordenado");
         System.out.println(newRandom.toString());
         
+        System.out.println("Tipos de ordenamiento:");
+        System.out.println(" 1. InsertionSort");
+        System.out.println(" 2. Bubble Sort");
+        System.out.println(" 3. Merge Sort");
+        System.out.println(" 4. Quick Sort");
+        
         System.out.println("Ingrese tipo de ordenamiento");
         int opcion = _in.nextInt();
         
