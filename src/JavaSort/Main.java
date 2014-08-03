@@ -11,10 +11,14 @@ import java.util.Scanner;
 public class Main {
     public static void main (String[] args){
         
+        int opcion;
         Scanner _in = new Scanner(System.in);
-        
         Sort sort;
-        RandomArray newRandom = new RandomArray(10);
+        
+        
+        System.out.println("Ingresa la cantidad de numeros a generar aleatoriamente");
+        opcion  = _in.nextInt();
+        RandomArray newRandom = new RandomArray(opcion);
         System.out.println("Arreglo desordenado");
         System.out.println(newRandom.toString());
         
