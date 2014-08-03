@@ -21,5 +21,6 @@ public class BubbleSort extends Sort{
         }
         
         _sortedArray = a;
+        
     }
 }
